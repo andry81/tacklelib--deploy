@@ -1,4 +1,4 @@
 projects/configure.user.bat
 projects/configureex.user.bat
-projects/deploy/configure.user.bat
-projects/tacklelib/configure.user.bat
+projects/tacklelib/deploy/configure.user.bat
+projects/tacklelib/tacklelib/configure.user.bat
