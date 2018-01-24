@@ -18,19 +18,19 @@ rem extract name of sync directory from name of the script
 set "?~nx0=%~nx0"
 set "?~n0=%~n0"
 
-set "WCROOT=%GIT.WCROOT_DIR%"
+set "WCROOT=%GIT2.WCROOT_DIR%"
 if not defined WCROOT ( call :EXIT_B -254 & goto EXIT )
 
 if not "%WCROOT_OFFSET%" == "" set "WCROOT=%WCROOT_OFFSET%/%WCROOT%"
 
 pushd "%~dp0%WCROOT%" && (
   rem check ref on existance
-  git ls-remote -h --exit-code "%TACKLELIB_DEPLOY.GIT.ORIGIN%" master > nul && (
-    call :CMD git pull origin master || ( popd & goto EXIT )
+  git ls-remote -h --exit-code "%TACKLELIB_CMAKE.GIT2.ORIGIN%" trunk > nul && (
+    call :CMD git pull origin trunk:master || ( popd & goto EXIT )
   )
   call :CMD git svn fetch || ( popd & goto EXIT )
   call :CMD git svn rebase || ( popd & goto EXIT )
-  call :CMD git push origin master || ( popd & goto EXIT )
+  call :CMD git push origin master:trunk || ( popd & goto EXIT )
   popd
 )
 

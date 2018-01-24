@@ -11,9 +11,10 @@ set /A NEST_LVL+=1
 (
   echo.@echo off
   echo.
-  echo.set "SVN.WCROOT_DIR=sf~tacklelib--deploy"
-  echo.set "GIT.WCROOT_DIR=gh~tacklelib--deploy"
-  echo.set "GIT2.WCROOT_DIR=bb~tacklelib--deploy"
+  echo.set "SVN.WCROOT_DIR=sf~tacklelib--examples"
+  echo.set "GIT.WCROOT_DIR=gh~tacklelib--examples"
+  echo.set "GIT2.WCROOT_DIR=bb~tacklelib--examples"
+  echo.set "GIT3.WCROOT_DIR=gl~tacklelib--examples"
   echo.
 ) > "%~dp0configure.user.bat"
 

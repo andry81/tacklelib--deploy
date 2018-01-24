@@ -25,12 +25,12 @@ if not "%WCROOT_OFFSET%" == "" set "WCROOT=%WCROOT_OFFSET%/%WCROOT%"
 
 pushd "%~dp0%WCROOT%" && (
   rem check ref on existance
-  git ls-remote -h --exit-code "%TACKLELIB_DEPLOY.GIT.ORIGIN%" master > nul && (
-    call :CMD git pull origin master || ( popd & goto EXIT )
+  git ls-remote -h --exit-code "%TACKLELIB_CMAKE.GIT.ORIGIN%" trunk > nul && (
+    call :CMD git pull origin trunk:master || ( popd & goto EXIT )
   )
   call :CMD git svn fetch || ( popd & goto EXIT )
   call :CMD git svn rebase || ( popd & goto EXIT )
-  call :CMD git push origin master || ( popd & goto EXIT )
+  call :CMD git push origin master:trunk || ( popd & goto EXIT )
   popd
 )
 

@@ -48,7 +48,7 @@ rmdir /S /Q "%TEMP_FILE_OUTTER_DIR%"
 exit /b %LASTERROR%
 
 :MAIN
-set "WCROOT=%GIT.WCROOT_DIR%"
+set "WCROOT=%GIT2.WCROOT_DIR%"
 if not defined WCROOT ( call :EXIT_B -254 & goto EXIT )
 
 if not "%WCROOT_OFFSET%" == "" set "WCROOT=%WCROOT_OFFSET%/%WCROOT%"
@@ -58,14 +58,14 @@ if not exist "%~dp0%WCROOT%\.git" ( call :CMD git init "%%~dp0%%WCROOT%%" %%* ||
 
 pushd "%~dp0%WCROOT%" && (
   rem reinit git svn
-  call :GIT_SVN_INIT "%%TACKLELIB_DEPLOY.SVN.REPOROOT%%" || ( popd & goto EXIT )
+  call :GIT_SVN_INIT "%%TACKLELIB_EXAMPLES.SVN.REPOROOT%%" --stdlayout || ( popd & goto EXIT )
 
-  call :CMD git config user.name "%%GIT.USER%%" || ( popd & goto EXIT )
-  call :CMD git config user.email "%%GIT.EMAIL%%" || ( popd & goto EXIT )
+  call :CMD git config user.name "%%GIT2.USER%%" || ( popd & goto EXIT )
+  call :CMD git config user.email "%%GIT2.EMAIL%%" || ( popd & goto EXIT )
 
   (
-    git remote get-url origin > nul 2> nul && call :CMD git remote set-url origin "%%TACKLELIB_DEPLOY.GIT.ORIGIN%%"
-  ) || call :CMD git remote add origin "%%TACKLELIB_DEPLOY.GIT.ORIGIN%%" || ( popd & goto EXIT )
+    git remote get-url origin > nul 2> nul && call :CMD git remote set-url origin "%%TACKLELIB_EXAMPLES.GIT2.ORIGIN%%"
+  ) || call :CMD git remote add origin "%%TACKLELIB_EXAMPLES.GIT2.ORIGIN%%" || ( popd & goto EXIT )
 
   popd
 )
