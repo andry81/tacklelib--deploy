@@ -5,4 +5,5 @@ projects/tacklelib/configure.user.bat
 projects/tacklelib/configure_private.user.bat
 projects/tacklelib/deploy/configure.user.bat
 projects/tacklelib/examples/configure.user.bat
+projects/tacklelib/scripts/configure.user.bat
 projects/tacklelib/tacklelib/configure.user.bat
