@@ -24,7 +24,7 @@ if not defined WCROOT ( call :EXIT_B -254 & goto EXIT )
 if not "%WCROOT_OFFSET%" == "" set "WCROOT=%WCROOT_OFFSET%/%WCROOT%"
 
 if not exist "%~dp0%WCROOT%\" mkdir "%~dp0%WCROOT%"
-if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%TACKLELIB.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
+if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%TACKLELIB_SCRIPTS.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
 
 goto EXIT
 
