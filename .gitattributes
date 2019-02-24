@@ -1,5 +1,7 @@
 * text=auto !eol
 projects/tacklelib/README_EN.txt -text
+projects/tacklelib/__init__.bat -text
+projects/tacklelib/cmake/__init__.bat -text
 projects/tacklelib/cmake/bb~git_init.bat -text
 projects/tacklelib/cmake/bb~git_pull_all.bat -text
 projects/tacklelib/cmake/bb~git_reset_all.bat -text
@@ -19,6 +21,7 @@ projects/tacklelib/cmake/gl~git~svn_sync_all.bat -text
 projects/tacklelib/cmake/sf~svn~checkout_all.bat -text
 projects/tacklelib/cmake/sf~svn~update_all.bat -text
 projects/tacklelib/configure.bat -text
+projects/tacklelib/deploy/__init__.bat -text
 projects/tacklelib/deploy/bb~git_init.bat -text
 projects/tacklelib/deploy/bb~git_pull_all.bat -text
 projects/tacklelib/deploy/bb~git_reset_all.bat -text
@@ -32,6 +35,7 @@ projects/tacklelib/deploy/gh~git~svn_fetch.bat -text
 projects/tacklelib/deploy/gh~git~svn_sync_all.bat -text
 projects/tacklelib/deploy/sf~svn~checkout_all.bat -text
 projects/tacklelib/deploy/sf~svn~update_all.bat -text
+projects/tacklelib/examples/__init__.bat -text
 projects/tacklelib/examples/bb~git_init.bat -text
 projects/tacklelib/examples/bb~git_pull_all.bat -text
 projects/tacklelib/examples/bb~git_reset_all.bat -text
@@ -50,6 +54,7 @@ projects/tacklelib/examples/gl~git~svn_fetch.bat -text
 projects/tacklelib/examples/gl~git~svn_sync_all.bat -text
 projects/tacklelib/examples/sf~svn~checkout_all.bat -text
 projects/tacklelib/examples/sf~svn~update_all.bat -text
+projects/tacklelib/scripts/__init__.bat -text
 projects/tacklelib/scripts/bb~git_init.bat -text
 projects/tacklelib/scripts/bb~git_pull_all.bat -text
 projects/tacklelib/scripts/bb~git_reset_all.bat -text
@@ -68,6 +73,7 @@ projects/tacklelib/scripts/gl~git~svn_fetch.bat -text
 projects/tacklelib/scripts/gl~git~svn_sync_all.bat -text
 projects/tacklelib/scripts/sf~svn~checkout_all.bat -text
 projects/tacklelib/scripts/sf~svn~update_all.bat -text
+projects/tacklelib/tacklelib/__init__.bat -text
 projects/tacklelib/tacklelib/bb~git_init.bat -text
 projects/tacklelib/tacklelib/bb~git_pull_all.bat -text
 projects/tacklelib/tacklelib/bb~git_reset_all.bat -text
