@@ -12,7 +12,7 @@ set /A NEST_LVL+=1
   echo.@echo off
   echo.
   echo.set PROJECT_NAME=tacklelib
-  echo.set "WCROOT_OFFSET=%CONFIGURE_ROOT%/../../_%%PROJECT_NAME%%"
+  echo.set "WCROOT_OFFSET=%%CONFIGURE_ROOT%%/../../_%%PROJECT_NAME%%"
   echo.
   echo.set "TACKLELIB_DEPLOY.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/tacklelib/deploy"
   echo.set "TACKLELIB.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/tacklelib/tacklelib"
