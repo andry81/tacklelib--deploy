@@ -1,14 +1,8 @@
 projects/configure.user.bat
 projects/configureex.user.bat
-projects/tacklelib/cmake/*.lst
-projects/tacklelib/cmake/*.vars
 projects/tacklelib/configure.user.bat
 projects/tacklelib/configure_private.user.bat
 projects/tacklelib/deploy/*.lst
 projects/tacklelib/deploy/*.vars
-projects/tacklelib/examples/*.lst
-projects/tacklelib/examples/*.vars
-projects/tacklelib/scripts/*.lst
-projects/tacklelib/scripts/*.vars
 projects/tacklelib/tacklelib/*.lst
 projects/tacklelib/tacklelib/*.vars
