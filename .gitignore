@@ -1,7 +1,6 @@
 projects/configure.user.bat
 projects/configureex.user.bat
-projects/tacklelib/configure.user.bat
-projects/tacklelib/configure_private.user.bat
+projects/tacklelib/*.vars
 projects/tacklelib/deploy/*.lst
 projects/tacklelib/deploy/*.vars
 projects/tacklelib/tacklelib/*.lst
