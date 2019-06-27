@@ -1,5 +1,3 @@
-projects/configure.user.bat
-projects/configureex.user.bat
 projects/tacklelib/*.vars
 projects/tacklelib/deploy/*.lst
 projects/tacklelib/deploy/*.vars
