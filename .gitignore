@@ -1,5 +1,8 @@
 projects/tacklelib/*.vars
+projects/tacklelib/.log
 projects/tacklelib/deploy/*.lst
 projects/tacklelib/deploy/*.vars
+projects/tacklelib/deploy/.log
 projects/tacklelib/tacklelib/*.lst
 projects/tacklelib/tacklelib/*.vars
+projects/tacklelib/tacklelib/.log
