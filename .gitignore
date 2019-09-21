@@ -1,4 +1,6 @@
+projects/tacklelib/*.lst
 projects/tacklelib/*.vars
+projects/tacklelib/*.yaml
 projects/tacklelib/.log
 projects/tacklelib/deploy/*.lst
 projects/tacklelib/deploy/*.vars
