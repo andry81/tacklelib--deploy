@@ -16,7 +16,7 @@ projects/tacklelib/deploy/gh~git~init.bat -text
 projects/tacklelib/deploy/gh~git~pull.bat -text
 projects/tacklelib/deploy/gh~git~reset.bat -text
 projects/tacklelib/deploy/gh~git~sync_svn_to_git.bat -text
-projects/tacklelib/deploy/repos.lst.in -text
+projects/tacklelib/deploy/git_repos.lst.in -text
 projects/tacklelib/deploy/sf~svn~checkout.bat -text
 projects/tacklelib/deploy/sf~svn~update.bat -text
 projects/tacklelib/tacklelib/__init__.bat -text
@@ -31,10 +31,10 @@ projects/tacklelib/tacklelib/gh~git~init.bat -text
 projects/tacklelib/tacklelib/gh~git~pull.bat -text
 projects/tacklelib/tacklelib/gh~git~reset.bat -text
 projects/tacklelib/tacklelib/gh~git~sync_svn_to_git.bat -text
+projects/tacklelib/tacklelib/git_repos.lst.in -text
 projects/tacklelib/tacklelib/gl~git~init.bat -text
 projects/tacklelib/tacklelib/gl~git~pull.bat -text
 projects/tacklelib/tacklelib/gl~git~reset.bat -text
 projects/tacklelib/tacklelib/gl~git~sync_svn_to_git.bat -text
-projects/tacklelib/tacklelib/repos.lst.in -text
 projects/tacklelib/tacklelib/sf~svn~checkout.bat -text
 projects/tacklelib/tacklelib/sf~svn~update.bat -text
