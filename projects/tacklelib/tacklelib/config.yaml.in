@@ -1,5 +1,3 @@
-SVN.REPOROOT:               ${TACKLELIB.SVN.REPOROOT}
-
 SVN.WCROOT_DIR:             sf~svn~tacklelib
 GIT.WCROOT_DIR:             gh~git~tacklelib
 GIT2.WCROOT_DIR:            bb~git~tacklelib
