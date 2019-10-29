@@ -1,8 +1,8 @@
 PROJECT_NAME:                   tacklelib
 WCROOT_OFFSET:                  ${env:CONFIGURE_ROOT:path}/../../_${PROJECT_NAME}
 
-TACKLELIB_DEPLOY.SVN.REPOROOT:  https://${SVN.HUB_ROOT}/tacklelib/deploy
-TACKLELIB.SVN.REPOROOT:         https://${SVN.HUB_ROOT}/tacklelib/tacklelib
+TACKLELIB_DEPLOY.SVN.REPOROOT:  svn+ssh://${SVN.HUB_ROOT}/tacklelib/deploy
+TACKLELIB.SVN.REPOROOT:         svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib
 
 TACKLELIB_DEPLOY.GIT.ORIGIN:    https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--deploy.git
 TACKLELIB.GIT.ORIGIN:           https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib.git
