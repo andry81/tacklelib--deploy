@@ -1,5 +1,5 @@
 PROJECT_NAME:                   tacklelib
-WCROOT_OFFSET:                  ${env:CONFIGURE_ROOT:path}/../../_${PROJECT_NAME}
+WCROOT_OFFSET:                  ${CONFIGURE_ROOT}/../../_${PROJECT_NAME}
 
 TACKLELIB_DEPLOY.SVN.REPOROOT:  svn+ssh://${SVN.HUB_ROOT}/tacklelib/deploy
 TACKLELIB.SVN.REPOROOT:         svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib
