@@ -1,0 +1,6 @@
+SVN.WCROOT_DIR:             sf~svn~tacklelib--3dparty--pystring
+GIT.WCROOT_DIR:             gh~git~tacklelib--3dparty--pystring
+GIT2.WCROOT_DIR:            bb~git~tacklelib--3dparty--pystring
+GIT3.WCROOT_DIR:            gl~git~tacklelib--3dparty--pystring
+
+SVN.CHECKOUT_URL:           ${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}/trunk

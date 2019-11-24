@@ -1,13 +1,30 @@
-PROJECT_NAME:                   tacklelib
-WCROOT_OFFSET:                  ${CONFIGURE_ROOT}/../../_${PROJECT_NAME}
+PROJECT_NAME:                               tacklelib
+WCROOT_OFFSET:                              ${CONFIGURE_ROOT}/../../_${PROJECT_NAME}
 
-TACKLELIB_DEPLOY.SVN.REPOROOT:  svn+ssh://${SVN.HUB_ROOT}/tacklelib/deploy
-TACKLELIB.SVN.REPOROOT:         svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib
+TACKLELIB_DEPLOY.SVN.REPOROOT:              svn+ssh://${SVN.HUB_ROOT}/tacklelib/deploy
+TACKLELIB.SVN.REPOROOT:                     svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib
+TACKLELIB_3DPARTY.SVN.REPOROOT:             svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib--3dparty
+TACKLELIB_3DPARTY_FMT.SVN.REPOROOT:         svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib--3dparty--fmt
+TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT:    svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib--3dparty--p7client
+TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT:    svn+ssh://${SVN.HUB_ROOT}/tacklelib/tacklelib--3dparty--pystring
 
-TACKLELIB_DEPLOY.GIT.ORIGIN:    https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--deploy.git
-TACKLELIB.GIT.ORIGIN:           https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib.git
+TACKLELIB_DEPLOY.GIT.ORIGIN:                https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--deploy.git
+TACKLELIB.GIT.ORIGIN:                       https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib.git
+TACKLELIB_3DPARTY.GIT.ORIGIN:               https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--3dparty.git
+TACKLELIB_3DPARTY_FMT.GIT.ORIGIN:           https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--3dparty--fmt.git
+TACKLELIB_3DPARTY_P7CLIENT.GIT.ORIGIN:      https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--3dparty--p7client.git
+TACKLELIB_3DPARTY_PYSTRING.GIT.ORIGIN:      https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/tacklelib--3dparty--pystring.git
 
-TACKLELIB_DEPLOY.GIT2.ORIGIN:   https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib-deploy.git
-TACKLELIB.GIT2.ORIGIN:          https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib.git
+TACKLELIB_DEPLOY.GIT2.ORIGIN:               https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib-deploy.git
+TACKLELIB.GIT2.ORIGIN:                      https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib.git
+TACKLELIB_3DPARTY.GIT2.ORIGIN:              https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib-3dparty.git
+TACKLELIB_3DPARTY_FMT.GIT2.ORIGIN:          https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib-3dparty-fmt.git
+TACKLELIB_3DPARTY_P7CLIENT.GIT2.ORIGIN:     https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib-3dparty-p7client.git
+TACKLELIB_3DPARTY_PYSTRING.GIT2.ORIGIN:     https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/tacklelib-3dparty-pystring.git
 
-TACKLELIB.GIT3.ORIGIN:          https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib.git
+#TACKLELIB_DEPLOY.GIT3.ORIGIN:              https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib--deploy.git
+TACKLELIB.GIT3.ORIGIN:                      https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib.git
+TACKLELIB_3DPARTY.GIT3.ORIGIN:              https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib--3dparty.git
+TACKLELIB_3DPARTY_FMT.GIT3.ORIGIN:          https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib--3dparty--fmt.git
+TACKLELIB_3DPARTY_P7CLIENT.GIT3.ORIGIN:     https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib--3dparty--p7client.git
+TACKLELIB_3DPARTY_PYSTRING.GIT3.ORIGIN:     https://${GIT3.USER}@${GIT3.HUB_ROOT}/${GIT3.REPO_OWNER}/tacklelib--3dparty--pystring.git
