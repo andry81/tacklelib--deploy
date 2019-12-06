@@ -1,15 +1,15 @@
-# <scm_token>|<branch_type>|<remote_name>|<parent_remote_name>|<git_reporoot>|<svn_reporoot>|<git_local_branch>|<git_remote_branch>|<parent_git_path_prefix>|<svn_path_prefix>|<git_svn_init_cmdline>|<git_remote_add_cmdline>|<parent_git_subtree_cmdline>|<git_subtree_cmdline>
-GIT|root|origin|.|${TACKLELIB_3DPARTY.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.|.|.
-GIT|subtree|log-p7client|origin|${TACKLELIB_3DPARTY_P7CLIENT.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT}|trunk|trunk|log/p7client|trunk|.|.|.|.
-GIT|subtree|utility-fmt|origin|${TACKLELIB_3DPARTY_FMT.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_FMT.SVN.REPOROOT}|trunk|trunk|utility/fmt|trunk|.|.|.|.
-GIT|subtree|utility-pystring|origin|${TACKLELIB_3DPARTY_PYSTRING.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}|trunk|trunk|utility/pystring|trunk|.|.|.|.
+# <scm_token>|<branch_type>|<remote_name>|<parent_remote_name>|<git_reporoot>|<svn_reporoot>|<git_local_branch>|<git_remote_branch>|<parent_git_path_prefix>|<svn_path_prefix>|<git_svn_init_cmdline>|<git_remote_add_cmdline>
+GIT|root|origin|.|${TACKLELIB_3DPARTY.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.
+GIT|subtree|log-p7client|origin|${TACKLELIB_3DPARTY_P7CLIENT.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT}|trunk|trunk|log/p7client|trunk|.|.
+GIT|subtree|utility-fmt|origin|${TACKLELIB_3DPARTY_FMT.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_FMT.SVN.REPOROOT}|trunk|trunk|utility/fmt|trunk|.|.
+GIT|subtree|utility-pystring|origin|${TACKLELIB_3DPARTY_PYSTRING.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}|trunk|trunk|utility/pystring|trunk|.|.
 
-GIT2|root|origin|.|${TACKLELIB_3DPARTY.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.|.|.
-GIT2|subtree|log-p7client|origin|${TACKLELIB_3DPARTY_P7CLIENT.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT}|trunk|trunk|log/p7client|trunk|.|.|.|.
-GIT2|subtree|utility-fmt|origin|${TACKLELIB_3DPARTY_FMT.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_FMT.SVN.REPOROOT}|trunk|trunk|utility/fmt|trunk|.|.|.|.
-GIT2|subtree|utility-pystring|origin|${TACKLELIB_3DPARTY_PYSTRING.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}|trunk|trunk|utility/pystring|trunk|.|.|.|.
+GIT2|root|origin|.|${TACKLELIB_3DPARTY.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.
+GIT2|subtree|log-p7client|origin|${TACKLELIB_3DPARTY_P7CLIENT.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT}|trunk|trunk|log/p7client|trunk|.|.
+GIT2|subtree|utility-fmt|origin|${TACKLELIB_3DPARTY_FMT.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_FMT.SVN.REPOROOT}|trunk|trunk|utility/fmt|trunk|.|.
+GIT2|subtree|utility-pystring|origin|${TACKLELIB_3DPARTY_PYSTRING.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}|trunk|trunk|utility/pystring|trunk|.|.
 
-GIT3|root|origin|.|${TACKLELIB_3DPARTY.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.|.|.
-GIT3|subtree|log-p7client|origin|${TACKLELIB_3DPARTY_P7CLIENT.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT}|trunk|trunk|log/p7client|trunk|.|.|.|.
-GIT3|subtree|utility-fmt|origin|${TACKLELIB_3DPARTY_FMT.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_FMT.SVN.REPOROOT}|trunk|trunk|utility/fmt|trunk|.|.|.|.
-GIT3|subtree|utility-pystring|origin|${TACKLELIB_3DPARTY_PYSTRING.${SCM_NAME}.ORIGIN}|${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}|trunk|trunk|utility/pystring|trunk|.|.|.|.
+GIT3|root|origin|.|${TACKLELIB_3DPARTY.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.
+GIT3|subtree|log-p7client|origin|${TACKLELIB_3DPARTY_P7CLIENT.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_P7CLIENT.SVN.REPOROOT}|trunk|trunk|log/p7client|trunk|.|.
+GIT3|subtree|utility-fmt|origin|${TACKLELIB_3DPARTY_FMT.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_FMT.SVN.REPOROOT}|trunk|trunk|utility/fmt|trunk|.|.
+GIT3|subtree|utility-pystring|origin|${TACKLELIB_3DPARTY_PYSTRING.${SCM_TOKEN}.ORIGIN}|${TACKLELIB_3DPARTY_PYSTRING.SVN.REPOROOT}|trunk|trunk|utility/pystring|trunk|.|.
