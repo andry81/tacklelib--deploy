@@ -18,6 +18,10 @@ projects/tacklelib/tacklelib/3dparty/fmt/*.lst
 projects/tacklelib/tacklelib/3dparty/fmt/*.vars
 projects/tacklelib/tacklelib/3dparty/fmt/*.yaml
 projects/tacklelib/tacklelib/3dparty/fmt/.log
+projects/tacklelib/tacklelib/3dparty/googletest/*.lst
+projects/tacklelib/tacklelib/3dparty/googletest/*.vars
+projects/tacklelib/tacklelib/3dparty/googletest/*.yaml
+projects/tacklelib/tacklelib/3dparty/googletest/.log
 projects/tacklelib/tacklelib/3dparty/p7client/*.lst
 projects/tacklelib/tacklelib/3dparty/p7client/*.vars
 projects/tacklelib/tacklelib/3dparty/p7client/*.yaml
