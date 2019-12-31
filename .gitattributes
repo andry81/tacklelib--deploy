@@ -1,5 +1,4 @@
 * text=auto !eol
-projects/tacklelib/README_EN.txt -text
 projects/tacklelib/__init__.bat -text
 projects/tacklelib/config.vars.in -text
 projects/tacklelib/config.yaml.in -text
