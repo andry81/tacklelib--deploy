@@ -1,24 +1,16 @@
 * text=auto !eol
-projects/tacklelib/config.vars.in -text
 projects/tacklelib/config.yaml.in -text
-projects/tacklelib/deploy/config.vars.in -text
 projects/tacklelib/deploy/config.yaml.in -text
 projects/tacklelib/deploy/git_repos.lst.in -text
-projects/tacklelib/tacklelib/3dparty/config.vars.in -text
 projects/tacklelib/tacklelib/3dparty/config.yaml.in -text
-projects/tacklelib/tacklelib/3dparty/fmt/config.vars.in -text
 projects/tacklelib/tacklelib/3dparty/fmt/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/fmt/git_repos.lst.in -text
 projects/tacklelib/tacklelib/3dparty/git_repos.lst.in -text
-projects/tacklelib/tacklelib/3dparty/googletest/config.vars.in -text
 projects/tacklelib/tacklelib/3dparty/googletest/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/googletest/git_repos.lst.in -text
-projects/tacklelib/tacklelib/3dparty/p7client/config.vars.in -text
 projects/tacklelib/tacklelib/3dparty/p7client/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/p7client/git_repos.lst.in -text
-projects/tacklelib/tacklelib/3dparty/pystring/config.vars.in -text
 projects/tacklelib/tacklelib/3dparty/pystring/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/pystring/git_repos.lst.in -text
-projects/tacklelib/tacklelib/config.vars.in -text
 projects/tacklelib/tacklelib/config.yaml.in -text
 projects/tacklelib/tacklelib/git_repos.lst.in -text
