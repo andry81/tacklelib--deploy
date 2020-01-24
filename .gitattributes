@@ -8,9 +8,17 @@ projects/tacklelib/tacklelib/3dparty/fmt/git_repos.lst.in -text
 projects/tacklelib/tacklelib/3dparty/git_repos.lst.in -text
 projects/tacklelib/tacklelib/3dparty/googletest/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/googletest/git_repos.lst.in -text
+projects/tacklelib/tacklelib/3dparty/libarchive/config.yaml.in -text
+projects/tacklelib/tacklelib/3dparty/libarchive/git_repos.lst.in -text
 projects/tacklelib/tacklelib/3dparty/p7client/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/p7client/git_repos.lst.in -text
 projects/tacklelib/tacklelib/3dparty/pystring/config.yaml.in -text
 projects/tacklelib/tacklelib/3dparty/pystring/git_repos.lst.in -text
+projects/tacklelib/tacklelib/3dparty/qcustomplot/config.yaml.in -text
+projects/tacklelib/tacklelib/3dparty/qcustomplot/git_repos.lst.in -text
+projects/tacklelib/tacklelib/3dparty/qwtpolar/config.yaml.in -text
+projects/tacklelib/tacklelib/3dparty/qwtpolar/git_repos.lst.in -text
+projects/tacklelib/tacklelib/3dparty/xzutils/config.yaml.in -text
+projects/tacklelib/tacklelib/3dparty/xzutils/git_repos.lst.in -text
 projects/tacklelib/tacklelib/config.yaml.in -text
 projects/tacklelib/tacklelib/git_repos.lst.in -text

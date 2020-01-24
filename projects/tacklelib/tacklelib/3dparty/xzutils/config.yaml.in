@@ -1,0 +1,6 @@
+SVN.WCROOT_DIR:             sf~svn~tacklelib--3dparty--xzutils
+GIT.WCROOT_DIR:             gh~git~tacklelib--3dparty--xzutils
+GIT2.WCROOT_DIR:            bb~git~tacklelib--3dparty--xzutils
+GIT3.WCROOT_DIR:            gl~git~tacklelib--3dparty--xzutils
+
+SVN.CHECKOUT_URL:           ${TACKLELIB_3DPARTY_XZUTILS.SVN.REPOROOT}/trunk
