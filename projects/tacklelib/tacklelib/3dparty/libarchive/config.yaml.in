@@ -1,6 +1,6 @@
-SVN.WCROOT_DIR:             sf~svn~tacklelib--3dparty--libarchive
-GIT.WCROOT_DIR:             gh~git~tacklelib--3dparty--libarchive
-GIT2.WCROOT_DIR:            bb~git~tacklelib--3dparty--libarchive
-GIT3.WCROOT_DIR:            gl~git~tacklelib--3dparty--libarchive
+SVN_SF.WCROOT_DIR:          sf~svn~tacklelib--3dparty--libarchive
+GIT_GH.WCROOT_DIR:          gh~git~tacklelib--3dparty--libarchive
+GIT_BB.WCROOT_DIR:          bb~git~tacklelib--3dparty--libarchive
+GIT_GL.WCROOT_DIR:          gl~git~tacklelib--3dparty--libarchive
 
-SVN.CHECKOUT_URL:           ${TACKLELIB_3DPARTY_LIBARCHIVE.SVN.REPOROOT}/trunk
+SVN_SF.CHECKOUT_URL:        ${TACKLELIB_3DPARTY_LIBARCHIVE.SVN_SF.REPOROOT}/trunk
