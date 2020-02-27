@@ -3,20 +3,20 @@ WCROOT_OFFSET:                                  ${CONFIGURE_ROOT}/../../_${PROJE
 
 TACKLELIB_DEPLOY.SVN_SF.REPOROOT:               svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/deploy
 TACKLELIB.SVN_SF.REPOROOT:                      svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib
-TACKLELIB_3DPARTY.SVN_SF.REPOROOT:              svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty
+TACKLELIB_3DPARTY.SVN_SF.REPOROOT:              svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty
 # arc
-TACKLELIB_3DPARTY_LIBARCHIVE.SVN_SF.REPOROOT:   svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--libarchive
-TACKLELIB_3DPARTY_XZUTILS.SVN_SF.REPOROOT:      svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--xzutils
+TACKLELIB_3DPARTY_LIBARCHIVE.SVN_SF.REPOROOT:   svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--libarchive
+TACKLELIB_3DPARTY_XZUTILS.SVN_SF.REPOROOT:      svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--xzutils
 # gui
-TACKLELIB_3DPARTY_QCUSTOMPLOT.SVN_SF.REPOROOT:  svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--qcustomplot
-TACKLELIB_3DPARTY_QWTPOLAR.SVN_SF.REPOROOT:     svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--qwtpolar
+TACKLELIB_3DPARTY_QCUSTOMPLOT.SVN_SF.REPOROOT:  svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--qcustomplot
+TACKLELIB_3DPARTY_QWTPOLAR.SVN_SF.REPOROOT:     svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--qwtpolar
 # log
-TACKLELIB_3DPARTY_P7CLIENT.SVN_SF.REPOROOT:     svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--p7client
+TACKLELIB_3DPARTY_P7CLIENT.SVN_SF.REPOROOT:     svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--p7client
 # utility
-TACKLELIB_3DPARTY_FMT.SVN_SF.REPOROOT:          svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--fmt
-TACKLELIB_3DPARTY_PYSTRING.SVN_SF.REPOROOT:     svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--pystring
+TACKLELIB_3DPARTY_FMT.SVN_SF.REPOROOT:          svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--fmt
+TACKLELIB_3DPARTY_PYSTRING.SVN_SF.REPOROOT:     svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--pystring
 # test
-TACKLELIB_3DPARTY_GOOGLETEST.SVN_SF.REPOROOT:   svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/tacklelib--3dparty--googletest
+TACKLELIB_3DPARTY_GOOGLETEST.SVN_SF.REPOROOT:   svn+ssh://${SVN_SF.HUB_ROOT}/tacklelib/3dparty--googletest
 
 TACKLELIB_DEPLOY.GIT_GH.ORIGIN:                 https://${GIT_GH.HUB_ROOT}/${GIT_GH.REPO_OWNER}/tacklelib--deploy.git
 TACKLELIB.GIT_GH.ORIGIN:                        https://${GIT_GH.HUB_ROOT}/${GIT_GH.REPO_OWNER}/tacklelib.git
